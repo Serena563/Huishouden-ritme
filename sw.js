@@ -1,5 +1,5 @@
 // Huisritme service worker: altijd eerst het netwerk proberen, zodat een nieuwe bundle.js direct zichtbaar is.
-const CACHE_NAME = "huisritme-v3";
+const CACHE_NAME = "huisritme-v4";
 
 self.addEventListener("install", () => self.skipWaiting());
 
